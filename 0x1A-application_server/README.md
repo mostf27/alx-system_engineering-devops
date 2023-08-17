@@ -1,12 +1,10 @@
-# Requirements
-## General
-- A README.md file, at the root of the folder of the project, is mandatory
-- Everything Python-related must be done using python3
-- All config files must have comments
-## Bash Scripts
-- All your files will be interpreted on Ubuntu 16.04 LTS
-- All your files should end with a new line
-- All your Bash script files must be executable
-- Your Bash script must pass Shellcheck (version 0.3.7-5~ubuntu16.04.1 via apt-get) without any error
-- The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
-- The second line of all your Bash scripts should be a comment explaining what is the script doing
+# 0x1A. Application server
+
+| TASK | FILE                                                             | DESCRIPTION |
+| ---- | --------------------------------------------------------         | ----------- |
+| 2    | [2-app_server-nginx_config](./2-app_server-nginx_config)         |             |
+| 3    | [3-app_server-nginx_config](./3-app_server-nginx_config)         |             |
+| 4    | [4-app_server-nginx_config](./4-app_server-nginx_config)         |             |
+| 5    | [5-app_server-nginx_config](./5-app_server-nginx_config)         |             |
+| 6    | [gunicorn.service](./gunicorn.service)                           |             |
+| 7    | [4-reload_gunicorn_no_downtime](./4-reload_gunicorn_no_downtime) |             |
